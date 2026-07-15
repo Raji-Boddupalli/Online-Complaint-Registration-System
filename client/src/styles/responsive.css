@@ -1,0 +1,89 @@
+/* ===========================
+   Mobile (0–576px)
+=========================== */
+
+@media (max-width: 576px) {
+
+    h1, h2, h3 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .table-responsive {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* ===========================
+   Tablets (577px–991px)
+=========================== */
+
+@media (min-width:577px) and (max-width:991px){
+
+    h1,h2{
+
+        font-size:2rem;
+
+    }
+
+    .card{
+
+        margin-bottom:20px;
+
+    }
+
+    .btn{
+
+        width:auto;
+
+    }
+
+}
+
+/* ===========================
+   Large Screens
+=========================== */
+
+@media (min-width:1200px){
+
+    .container{
+
+        max-width:1200px;
+
+    }
+
+}
+/* Mobile */
+@media (max-width:576px){
+
+    .chart-container{
+
+        max-width:100% !important;
+
+        height:280px !important;
+
+    }
+
+}
